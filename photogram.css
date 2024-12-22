@@ -1,0 +1,89 @@
+:root{
+    --primary-color:white;
+    --secondary-color: rgb(0, 0, 0);
+    --tertiary-color: rgb(37,37,37);
+    --disable-color:red;
+
+
+}
+body{
+    background-color: var(--secondary-color);
+}
+.container{
+   background-color: whitesmoke; 
+   display: flex;
+   padding: 20px;
+   max-width: 1000px;
+   margin: 0 auto;
+}
+.container div h1{
+    text-align: center;
+    font-style: oblique;
+    font-weight: 600;
+
+}
+#posts{
+    margin-top: 20px;
+}
+.post{
+    padding: 20px;
+    border: 2px solid black;
+    margin: 30px;
+    background-color: lightslategrey;
+
+}
+.post h3{
+    text-align: center;
+}
+.post img{
+   width: 100%;
+   height: 300px;
+   align-self: center;
+}
+
+.sidebar{
+    padding-left: 20px;
+    margin-left: 20px;
+    height: 250px;
+    width: 400px;
+    font-size: medium;
+    background-color: grey;
+    margin-top: 89px;
+    border-radius: 5px;
+
+}
+.post-container{
+    flex: 1;
+    justify-content: center;
+  
+}
+.sidebar input[type="text"],
+#img-ip{
+    width: 90%;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-color: brown;
+}
+.sidebar h2{
+    color:brown;
+    font-style: italic;
+}
+.sidebar .submit-btn{
+    border: green solid ;
+    border-radius: 13px;
+    background-color: blueviolet;
+    padding: 5px;
+    width: 25%;
+    color: white;
+    font-weight: 700;
+}
+.sidebar .submit-btn:hover{
+background-color: lightseagreen;
+}
+.comment-ip{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
